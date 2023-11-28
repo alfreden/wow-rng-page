@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "http://alfreden.github.io/wow-rng-page/static/css/main.08afae8a.css",
-    "main.js": "http://alfreden.github.io/wow-rng-page/static/js/main.b0b367b4.js",
-    "static/js/787.44d587e5.chunk.js": "http://alfreden.github.io/wow-rng-page/static/js/787.44d587e5.chunk.js",
-    "index.html": "http://alfreden.github.io/wow-rng-page/index.html",
-    "main.08afae8a.css.map": "http://alfreden.github.io/wow-rng-page/static/css/main.08afae8a.css.map",
-    "main.b0b367b4.js.map": "http://alfreden.github.io/wow-rng-page/static/js/main.b0b367b4.js.map",
-    "787.44d587e5.chunk.js.map": "http://alfreden.github.io/wow-rng-page/static/js/787.44d587e5.chunk.js.map"
+    "main.css": "https://alfreden.github.io/wow-rng-page/static/css/main.08afae8a.css",
+    "main.js": "https://alfreden.github.io/wow-rng-page/static/js/main.447f10e9.js",
+    "static/js/787.44d587e5.chunk.js": "https://alfreden.github.io/wow-rng-page/static/js/787.44d587e5.chunk.js",
+    "index.html": "https://alfreden.github.io/wow-rng-page/index.html",
+    "main.08afae8a.css.map": "https://alfreden.github.io/wow-rng-page/static/css/main.08afae8a.css.map",
+    "main.447f10e9.js.map": "https://alfreden.github.io/wow-rng-page/static/js/main.447f10e9.js.map",
+    "787.44d587e5.chunk.js.map": "https://alfreden.github.io/wow-rng-page/static/js/787.44d587e5.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.08afae8a.css",
-    "static/js/main.b0b367b4.js"
+    "static/js/main.447f10e9.js"
   ]
 }
