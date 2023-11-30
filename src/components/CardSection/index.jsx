@@ -7,7 +7,6 @@ import "../../styles.css";
 const Cards = ({ cards }) => {
   const cardsContainerRef = useRef(null);
   const overlayRef = useRef(null);
-  const [selectedCard, setSelectedCard] = useState(null);
   
   useEffect(( ) => { 
     document.body.style = `--opacity: 1; --x: 50%; --y:${cardsContainerRef.current.offsetTop + 50}px; --animationWidth: ${cardsContainerRef.current.offsetWidth * cards.length}`;
@@ -34,18 +33,6 @@ const Cards = ({ cards }) => {
     )
   }
 
-  if(selectedCard !== null){
-    const theCard = cards.find((card) => card.id === selectedCard);
-    return (
-      <CardDiv id={theCard.id} key={theCard.id} >
-        <img src={`https://raw.githubusercontent.com/alfreden/wow-rng-page/master/public/images/${theCard.img}.jpg`} alt="img"/>
-        <div className="hero_header_container">
-          <h1 className="hero_header">{theCard.title} {theCard.content}</h1>
-        </div>
-      </CardDiv>
-    )
-  }
-
   return (
     <main className="main flow" ref={overlayRef}>
       <h1 className="main__heading">Choose faction</h1>
@@ -53,7 +40,7 @@ const Cards = ({ cards }) => {
         <div className="cards__inner startAnimation">
           {cards.map((card) => (
             <CardDiv id={card.id} key={card.id} >
-              <img src={`/images/${card.img}.jpg`} alt="img"/>
+              <img src={`/wow-rng-page/images/${card.img}.jpg`} alt="img"/>
               <div className="hero_header_container">
                 <h1 className="hero_header">{card.title} {card.content}</h1>
               </div>
