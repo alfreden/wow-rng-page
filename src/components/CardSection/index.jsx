@@ -38,7 +38,7 @@ const Cards = ({ cards }) => {
     const theCard = cards.find((card) => card.id === selectedCard);
     return (
       <CardDiv id={theCard.id} key={theCard.id} >
-        <img src={`/wow-rng-page/images/${theCard.img}.jpg`} alt="img"/>
+        <img src={`https://raw.githubusercontent.com/alfreden/wow-rng-page/master/public/images/${theCard.img}.jpg`} alt="img"/>
         <div className="hero_header_container">
           <h1 className="hero_header">{theCard.title} {theCard.content}</h1>
         </div>
