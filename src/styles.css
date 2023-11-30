@@ -28,15 +28,17 @@ body {
 }
 
 img {
+  position: relative;
   width: 100%;
-  height: auto;
+  top: 50;
+  aspect-ratio: 10 / 7;
 }
 
 @supports(object-fit: cover){
   img{
     height: 100%;
     object-fit: cover;
-    object-position: center center;
+    object-position: center top;
   }
 }
 
@@ -87,17 +89,8 @@ button {
   0% {
     left: 0;
   }
-  25% {
-    left: -1800%;
-  }
-  50% {
-    left: -800%;
-  }
-  75% {
-    left: -1500%
-  }
   100% {
-    left: -1144.5%;
+    left: -1000%;
   }
 }
 

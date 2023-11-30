@@ -35,12 +35,14 @@ const Cards = ({ cards }) => {
 
   return (
     <main className="main flow" ref={overlayRef}>
-      <h1 className="main__heading">Choose faction</h1>
+      <h1 className="main__heading"></h1>
       <div className="main__cards cards  " ref={cardsContainerRef}>
         <div className="cards__inner startAnimation">
           {cards.map((card) => (
             <CardDiv id={card.id} key={card.id} >
+              <div className="imgContainer">
               <img src={`/wow-rng-page/images/${card.img}.jpg`} alt="img"/>
+              </div>
               <div className="hero_header_container">
                 <h1 className="hero_header">{card.title} {card.content}</h1>
               </div>
